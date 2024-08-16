@@ -1,0 +1,21 @@
+POST http://localhost:3000/campaign/search
+
+{
+    "Page": 1,
+    "PerPage": 20
+}
+###
+
+POST http://localhost:3000/campaign
+
+{
+    "name": "Tatiane Roque",
+    "Content": "Pscologia content",
+    "Contacts": [
+        "1@mail.com",
+        "2@mail.com"
+    ]
+}
+###
+
+GET http://localhost:3000/campaign/cptni3fd5lbvhd5qrm00
